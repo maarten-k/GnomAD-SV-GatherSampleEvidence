@@ -1,0 +1,19 @@
+#config.yaml
+
+#this is a list of sample names
+sample_name: ['sample1', 'sample2', 'sample3']
+
+#absolute or relative 
+input_dir: input_data/
+
+input_file_type: "bam"
+
+
+out_dir: results/                  
+
+
+#absolute or relative
+manta_dir: tools/manta-1.6.0.centos6_x86_64/
+melt_dir: tools/MELTv2.2.2/
+
+
