@@ -8,32 +8,32 @@ import glob
 
 
 # common parameters
-primary_contigs_list =  "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/primary_contigs.list"
-reference_fasta = "resources/m00a-resources/hg38/v0/Homo_sapiens_assembly38.fasta"
-reference_index = "resources/m00a-resources/hg38/v0/Homo_sapiens_assembly38.fasta.fai"
-reference_dict = "resources/m00a-resources/hg38/v0/Homo_sapiens_assembly38.dict"
+primary_contigs_list =  "resources/primary_contigs.list"
+reference_fasta = "resources/Homo_sapiens_assembly38.fasta"
+reference_index = "resources/Homo_sapiens_assembly38.fasta.fai"
+reference_dict = "resources/Homo_sapiens_assembly38.dict"
 
 # coverage inputs
-preprocessed_intervals = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/preprocessed_intervals.interval_list"
+preprocessed_intervals = "resources/preprocessed_intervals.interval_list"
 
 # manta inputs
-manta_region_bed = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/primary_contigs_plus_mito.bed.gz"
+manta_region_bed = "resources/primary_contigs_plus_mito.bed.gz"
 
-manta_region_bed_index = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/primary_contigs_plus_mito.bed.gz.tbi"
+manta_region_bed_index = "resources/primary_contigs_plus_mito.bed.gz.tbi"
 
 # PESR inputs 
-sd_locs_vcf = "resources/m00a-resources/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf"
+sd_locs_vcf = "resources/Homo_sapiens_assembly38.dbsnp138.vcf"
 
 # MELT inputs
-melt_standard_vcf_header = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/melt_standard_vcf_header.txt"
+melt_standard_vcf_header = "resources/melt_standard_vcf_header.txt"
 
 melt_bed_file = config["melt_dir"] + "add_bed_files/Hg38/Hg38.genes.bed"
 
 # whamg inputs
-wham_include_list_bed_file = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/wham_whitelist.bed"
+wham_include_list_bed_file = "resources/wham_whitelist.bed"
 
 # module metrics parameters 
-primary_contigs_fai = "resources/m00a-resources/hg38/v0/sv-resources/resources/v1/contig.fai" 
+primary_contigs_fai = "resources/contig.fai" 
 
 
 # checking_directory_structure
