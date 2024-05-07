@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - bioconda
+  
+dependencies:
+  - r-base
+  - gatk4=4.4.0.0
+  - openjdk
+  - tabix
+  - samtools

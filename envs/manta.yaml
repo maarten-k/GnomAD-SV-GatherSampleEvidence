@@ -1,0 +1,18 @@
+
+channels:
+
+  - bioconda
+ 
+dependencies:
+
+  - bcftools=1.9
+
+  - bedtools=2.25.0
+
+  - samtools
+
+  - tabix
+
+  - ncurses
+
+  - python=2.7
