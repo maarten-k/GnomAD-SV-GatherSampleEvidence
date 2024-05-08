@@ -1,4 +1,4 @@
-Add the Hg38_reference.fasta
+Add Homo_sapiens_assembly38.fasta in this folder
 Add Hg38_dbsnp138.vcf
 Add hg38_preprocessed_intervals.list
 Add blast reference databases
