@@ -1,2 +1,3 @@
 Add the Hg38_reference.fasta
 Add Hg38_dbsnp138.vcf
+Add hg38_preprocessed_intervals.list
