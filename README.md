@@ -23,7 +23,9 @@ The download links for the reference (hg38) fasta and vcf files for running the 
       
 **Interval file** -  https://drive.google.com/file/d/1b582Qo5muOEzQuvBYYUg_JOBCfK2YJ1h/view?usp=sharing
 
-Save the interval file in the resource folder
+**Blast db** - https://drive.google.com/drive/folders/13pQsPExNJpd4NODPv7o5XzM16NYGKfFW?usp=sharing
+
+Save the interval file and the blastdb folder in resources
     
 **Manta** - v1.6.0 - https://github.com/Illumina/manta/releases
 
