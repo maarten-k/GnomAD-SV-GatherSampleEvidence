@@ -1,4 +1,4 @@
-# gnomAD-SV_Module00
+# GnomAD-SV - GatherSampleEvidence
 ## **About**
 This is the documentation for a Snakemake workflow which executes the GatherSampleEvidence module of the gatk-sv pipeline (available at https://github.com/broadinstitute/gatk-sv)
 
