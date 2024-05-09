@@ -21,7 +21,9 @@ The download links for the reference (hg38) fasta and vcf files for running the 
       1.	Homo_sapiens_assembly38.fasta
       2.	Homo_sapiens_assembly38.dbsnp138.vcf, other files are already included in the resources folder
       
-**Interval file** -  
+**Interval file** -  https://drive.google.com/file/d/1b582Qo5muOEzQuvBYYUg_JOBCfK2YJ1h/view?usp=sharing
+
+Save the interval file in the resource folder
     
 **Manta** - v1.6.0 - https://github.com/Illumina/manta/releases
 
@@ -85,9 +87,9 @@ snakemake samplemetrics -p --use-conda --use-singularity -j 100 "-B <IN_DIR>:<OU
 Mention the input and output directory for the bind options of singularity
 
 ## Submodule 
-| Command | Description | Job allocation with 10 samples | Storage allocation with 10 samples | Memory allocation with 10 samples | CPU time with 10 samples
+| Command | Description | Job allocation with one sample | Storage allocation with one sample | Memory allocation with one sample | CPU time with one sample
 |--- | --- | --- | --- | --- | --- |
-|Sample metrics| Runs the complete pipeline | -j 70 | 950 GB | 400 GB | 30 hours |
+|Sample metrics| Runs the complete pipeline | -j 7 | 95 GB | 40 GB | 30 hours |
 
 ## Outputs
 - VCF files from the variant callers (Manta, MELT, Scramble and Wham)
