@@ -60,6 +60,7 @@ preprocessed_intervals = "resources/preprocessed_intervals.interval_list"
 **manta inputs**
 
 manta_region_bed = "resources/primary_contigs_plus_mito.bed.gz"
+
 manta_region_bed_index = "resources/primary_contigs_plus_mito.bed.gz.tbi"
 
 **PESR inputs** 
@@ -69,6 +70,7 @@ sd_locs_vcf = "resources/Homo_sapiens_assembly38.dbsnp138.vcf"
 **MELT inputs**
 
 melt_standard_vcf_header = "resources/melt_standard_vcf_header.txt"
+
 melt_bed_file = config["melt_dir"] + "add_bed_files/Hg38/Hg38.genes.bed"
 
 **whamg inputs**
