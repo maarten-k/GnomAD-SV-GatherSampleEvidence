@@ -42,8 +42,11 @@ Downloads these files and store the reference files in the resources directory a
 **common parameters**
 
 primary_contigs_list =  "resources/primary_contigs.list"
+
 reference_fasta = "resources/Homo_sapiens_assembly38.fasta"
+
 reference_index = "resources/Homo_sapiens_assembly38.fasta.fai"
+
 reference_dict = "resources/Homo_sapiens_assembly38.dict"
 
 **coverage inputs**
