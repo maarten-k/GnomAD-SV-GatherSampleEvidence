@@ -40,7 +40,7 @@ Downloads these files and store the reference files in the resources directory a
       d.    Specify the Manta and MELT executables directory
 
 ## Changing the path of the resources in the snakefile
-  Once the reference files and the resources folders are downloaded, keep them in the working directoty and mention the path in the Snakefile. 
+  Once the reference files and the resources folders are downloaded, keep them in the working directory and mention the path in the Snakefile. 
       This includes,
       
 **common parameters**
