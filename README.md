@@ -18,11 +18,11 @@ The download links for the reference (hg38) fasta and vcf files for running the 
 
 **Reference fasta and vcf** - https://console.cloud.google.com/storage/browser/genomics-public-data/references/hg38/v0?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false
 
-
       1.	Homo_sapiens_assembly38.fasta
       2.	Homo_sapiens_assembly38.dbsnp138.vcf, other files are already included in the resources folder
-
       
+**Interval file** -  
+    
 **Manta** - v1.6.0 - https://github.com/Illumina/manta/releases
 
 **MELT** - v2.2.0 - https://melt.igs.umaryland.edu 
@@ -87,7 +87,7 @@ Mention the input and output directory for the bind options of singularity
 ## Submodule 
 | Command | Description | Job allocation with 10 samples | Storage allocation with 10 samples | Memory allocation with 10 samples | CPU time with 10 samples
 |--- | --- | --- | --- | --- | --- |
-|Sample metrics| Runs the complete pipeline | -j 70 | 950 GB | 40 GB | 30 hours |
+|Sample metrics| Runs the complete pipeline | -j 70 | 950 GB | 400 GB | 30 hours |
 
 ## Outputs
 - VCF files from the variant callers (Manta, MELT, Scramble and Wham)
