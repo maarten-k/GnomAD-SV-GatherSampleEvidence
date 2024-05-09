@@ -84,7 +84,7 @@ Mention the input and output directory for the bind options of singularity
 | Command | Description | Job allocation with 10 samples | Storage allocation with 10 samples | Memory allocation with 10 samples | CPU time with 10 samples
 |--- | --- | --- | --- | --- | --- |
 |Sample metrics| Runs the complete pipeline | -j 110 | 950 GB | 40 GB | 30 hours |
-|--- | --- | --- | --- | --- | --- |
+
 
 
 
