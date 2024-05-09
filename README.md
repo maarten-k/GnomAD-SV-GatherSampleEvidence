@@ -86,7 +86,12 @@ Mention the input and output directory for the bind options of singularity
 |--- | --- | --- | --- | --- | --- |
 |Sample metrics| Runs the complete pipeline | -j 70 | 950 GB | 40 GB | 30 hours |
 
-
+## Outputs
+- VCF files from the variant callers (Manta, MELT, Scramble and Wham)
+- metric files of all the inputs
+- Binned read counts file
+- Split reads file
+- Discordant read pairs file
 
 
 
