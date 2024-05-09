@@ -40,7 +40,7 @@ Downloads these files and store the reference files in the resources directory a
       d.    Specify the Manta and MELT executables directory
 
 ## Changing the path of the resources in the snakefile
-  Once the reference files and the resources folders is downloaded, keep them in the working directoty and mention the path in the Snakefile. 
+  Once the reference files and the resources folders are downloaded, keep them in the working directoty and mention the path in the Snakefile. 
       This includes,
       
 **common parameters**
@@ -86,7 +86,7 @@ Mention the PATH of the resources folder if not saved in the working directory
 ## Usage
 Before running the pipeline, make sure snakemake environment is activated
 
-snakemake samplemetrics -p --use-conda --use-singularity -j 100 "-B <IN_DIR>:<OUT_DIR>" --executor slurm --default-resources
+snakemake samplemetrics -p --use-conda --use-singularity -j <Number of samples> "-B <IN_DIR>:<OUT_DIR>" --executor slurm --default-resources
 
 Mention the input and output directory for the bind options of singularity
 
