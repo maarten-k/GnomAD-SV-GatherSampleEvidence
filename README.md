@@ -77,7 +77,8 @@ Mention the PATH of the resources folder if not saved in the working directory
 ## Usage
 Before running the pipeline, make sure snakemake environment is activated
 
-snakemake *COMMAND* -p --use-conda --use-singularity -j 100 "-B <IN_DIR>:<OUT_DIR>" --executor slurm --default-resources
+snakemake samplemetrics -p --use-conda --use-singularity -j 100 "-B <IN_DIR>:<OUT_DIR>" --executor slurm --default-resources
+
 Mention the input and output directory for the bind options of singularity
 
 ## Submodule 
