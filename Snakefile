@@ -584,7 +584,7 @@ rule ScramblePart2:
         scramble_vcf = scramble_dir + "{sample}.scramble.vcf.gz",
         scramble_index = scramble_dir + "{sample}.scramble.vcf.gz.tbi"
     benchmark:
-        "benchmark/ScramblePart2/{sample}.tsv"
+        "benchmarks/ScramblePart2/{sample}.tsv"
     singularity:
         "docker://us.gcr.io/broad-dsde-methods/markw/scramble:mw-scramble-99af4c50"
     threads: 1
