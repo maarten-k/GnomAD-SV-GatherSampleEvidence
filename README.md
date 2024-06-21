@@ -93,7 +93,7 @@ Mention the input and output directory for the bind options of singularity
 ## Submodule 
 | Command | Description | Job allocation with one sample | Storage allocation with one sample | Memory allocation with one sample | CPU time with one sample
 |--- | --- | --- | --- | --- | --- |
-|Sample metrics| Runs the complete pipeline | -j 19 | 95 GB | 40 GB | 30 hours |
+|Sample metrics| Runs the complete pipeline | 8 | 95 GB | 40 GB | 30 hours |
 
 ## Outputs
 - VCF files from the variant callers (Manta, MELT, Scramble and Wham)
