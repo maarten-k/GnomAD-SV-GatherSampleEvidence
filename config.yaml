@@ -1,12 +1,12 @@
 #config.yaml
 
 #this is a list of sample names
-sample_name: ['sample1', 'sample2', 'sample3']
+sample_name: ['sample1']
 
 #absolute or relative 
 input_dir: input_data/
 
-input_file_type: "bam"
+input_file_type: "cram"
 
 
 out_dir: results/                  
