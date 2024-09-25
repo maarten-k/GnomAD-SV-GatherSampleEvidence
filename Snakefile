@@ -451,7 +451,6 @@ rule runWhamg:
         whamg_c="chr1, chr2, chr3, chr4, chr5, chr6, chr7, chr8, chr9, chr10, chr11, chr12, chr13, chr14, chr15, chr16, chr17, chr18, chr19, chr20, chr21, chr22, chrX, chrY",
     shell:
         """
-63963 Bus error
         awk 'BEGIN{{FS=OFS="\t"}}{{printf(\"%07d\\t%s\\n\",NR,$1\":\"$2\"-\"$3)}}' {input[2]} |\
           while read -r line interval; do
             vcfFile="$line.wham.vcf.gz"
