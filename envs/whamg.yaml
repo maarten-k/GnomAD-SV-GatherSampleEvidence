@@ -1,8 +1,10 @@
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
+
 
 dependencies:
-  - wham
-  - bcftools
-  - tabix
+  - wham=1.8.0.1.2017.05.03
+  - bcftools=1.20
+  - htslib=1.20
+
