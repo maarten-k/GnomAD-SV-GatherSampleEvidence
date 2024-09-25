@@ -637,7 +637,6 @@ rule ScramblePart2:
         ref="resources/blast_refs/",
     shell:
         """
-        set -x
         mkdir -p {params.xDir}
         xDir=$PWD/{params.xDir}
         clusterFile=$PWD/{params.clusterFile}
